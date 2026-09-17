@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Jonathan Benitez Barriga, Senior Software Engineer specializing in C#/.NET and full-stack development." />
+    <title>Jonathan Benitez Barriga | Senior .NET Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a3558'/%3E%3Cpath d='M18 17h18v7H26v16c0 5 3 8 8 8 3 0 6-1 8-3l4 6c-3 3-8 5-14 5-10 0-16-6-16-16V17Z' fill='%23f4b942'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Jonathan Benitez Barriga, home">JBB<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#projects" data-i18n="navWork">Work</a>
+        <a href="#skills" data-i18n="navStack">Stack</a>
+        <a class="nav-contact" href="#contact" data-i18n="navContact">Contact</a>
+        <button class="language-toggle" type="button" aria-label="Cambiar idioma" aria-pressed="false">ES</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Available for Senior .NET &amp; Full-Stack roles</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Building dependable software for complex business problems.</h1>
+          <p class="intro" data-i18n="heroIntro">I am Jonathan Benitez Barriga, a software engineer with 10 years of experience across C#/.NET, APIs, databases, and modern web applications.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:jonaben93@gmail.com"><span data-i18n="heroContact">Get in touch</span> <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#projects" data-i18n="heroWork">See my work</a>
+          </div>
+        </div>
+        <figure class="portrait-wrap">
+          <div class="portrait-frame">
+            <img src="assets/jonathan-benitez.jpg" alt="Jonathan Benitez Barriga at work" />
+          </div>
+          <figcaption><span></span> Hermosillo, Sonora, <span data-i18n="country">Mexico</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="impact-strip" aria-label="Professional profile">
+        <div><strong>10</strong><span data-i18n="impactYears">Years building software</span></div>
+        <div><strong>.NET</strong><span data-i18n="impactBackend">Backend &amp; enterprise systems</span></div>
+        <div><strong data-i18n="impactFullStack">Full stack</strong><span data-i18n="impactInterfaces">From APIs to user interfaces</span></div>
+      </section>
+
+      <section class="section experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-label"><span>01</span><h2 id="experience-title" data-i18n="experience">Experience</h2></div>
+        <div class="timeline">
+          <article class="role role-featured">
+            <div class="role-meta"><span data-i18n="fortraDates">2024 — Present</span><span>Fortra</span></div>
+            <div class="role-content">
+              <h3>Software Developer II</h3>
+              <p data-i18n="fortraDesc">Maintain and evolve TLC and CCM, enterprise applications for device connectivity, log retrieval, and business-rule enforcement.</p>
+              <ul>
+                <li data-i18n="fortraBullet1">Deliver new features, resolve production incidents, and coordinate work across both products.</li>
+                <li data-i18n="fortraBullet2">Conduct code reviews and advocate for clean code, secure development, and OWASP-informed practices.</li>
+                <li data-i18n="fortraBullet3">Investigated a Windows update that affected remote log collection and helped define the operating-system mitigation.</li>
+              </ul>
+              <p class="tech">C# · .NET Framework · PostgreSQL · SQL Server · MySQL · VistaDB</p>
+            </div>
+          </article>
+          <article class="role">
+            <div class="role-meta"><span>2022 — 2024</span><span>Pinnacle Aerospace</span></div>
+            <div class="role-content">
+              <h3>Full-Stack Developer</h3>
+              <p data-i18n="pinnacleDesc">Built an internal project time-management application with Angular, .NET 7, and PostgreSQL. Developed CRM capabilities for specialist assignment and service integrations.</p>
+              <p class="tech">Angular · C# · .NET 7 · Node.js · TypeScript · PostgreSQL</p>
+            </div>
+          </article>
+          <article class="role">
+            <div class="role-meta"><span>2019 — 2022</span><span>Lennken Group</span></div>
+            <div class="role-content">
+              <h3>Senior Developer</h3>
+              <p data-i18n="lennkenDesc">Developed document-signing and claims-management systems, with Azure services, release pipelines, and delivery practices that supported enterprise operations.</p>
+              <p class="tech">.NET · SQL Server · Azure · Firebase · Azure DevOps</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work" id="projects" aria-labelledby="projects-title">
+        <div class="section-label"><span>02</span><h2 id="projects-title" data-i18n="selectedWork">Selected work</h2></div>
+        <div class="project-grid">
+          <article class="project-card card-blue">
+            <span class="project-index">01</span>
+            <div><p class="project-type" data-i18n="projectType1">Enterprise software</p><h3>TLC &amp; CCM</h3><p data-i18n="projectDesc1">Applications supporting connected-device workflows, data collection, and business-rule enforcement.</p></div>
+            <p class="project-stack">C# / .NET / SQL</p>
+          </article>
+          <article class="project-card card-sand">
+            <span class="project-index">02</span>
+            <div><p class="project-type" data-i18n="projectType2">Internal platform</p><h3>Thor</h3><p data-i18n="projectDesc2">Project time management for internal teams, designed as a full-stack application.</p></div>
+            <p class="project-stack">Angular / .NET 7 / PostgreSQL</p>
+          </article>
+          <article class="project-card card-dark">
+            <span class="project-index">03</span>
+            <div><p class="project-type" data-i18n="projectType3">Business workflow</p><h3 data-i18n="projectName3">Claims Management</h3><p data-i18n="projectDesc3">Workflow tools for claim intake, adjuster assignment, evidence tracking, and reporting.</p></div>
+            <p class="project-stack">.NET / Azure / SQL Server</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills" aria-labelledby="skills-title">
+        <div class="section-label"><span>03</span><h2 id="skills-title" data-i18n="technicalStack">Technical stack</h2></div>
+        <div class="skills-layout">
+          <p class="skills-intro" data-i18n="skillsIntro">I enjoy the full path from designing a reliable backend to delivering a clear, useful interface.</p>
+          <div class="skill-groups">
+            <div><h3 data-i18n="backend">Backend</h3><p>C# · .NET Framework · .NET 5/7 · ASP.NET · MVC · Node.js · Express · PHP · Python · Django</p></div>
+            <div><h3 data-i18n="frontend">Frontend</h3><p>Angular · TypeScript · JavaScript · HTML · CSS · SCSS · jQuery · Bootstrap</p></div>
+            <div><h3 data-i18n="dataDelivery">Data &amp; delivery</h3><p>SQL Server · PostgreSQL · MySQL · Azure · Azure DevOps · Git · REST APIs · OWASP · Scrum</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow" data-i18n="contactEyebrow">Let’s work together</p>
+        <h2 id="contact-title" data-i18n="contactTitle">Have a product or system that needs a careful build?</h2>
+        <a class="contact-link" href="mailto:jonaben93@gmail.com">jonaben93@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-details">
+          <a href="https://github.com/Jonath93" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/jonathan-benitez-barriga-ab9676134/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span data-i18n="languageLevel">English: Intermediate</span>
+        </div>
+      </section>
+    </main>
+    <footer>© 2026 Jonathan Benitez Barriga</footer>
+    <script src="language.js"></script>
+  </body>
+</html>
